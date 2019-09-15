@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------------------
 
-FROM px4io/px4-dev-ros-kinetic:2019-07-29
+FROM px4io/px4-dev-ros-melodic:2019-07-29
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
