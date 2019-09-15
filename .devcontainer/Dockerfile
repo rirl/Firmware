@@ -22,7 +22,7 @@ RUN apt-get update \
     # terminate called after throwing an instance of 'std::runtime_error' what(): locale::facet::_S_create_c_locale name not valid
     #
     && apt-get install -y locales \
-    && locale-gen en_US.UTF-8 && update-locale LANG=en_US.UTF-8
+    && locale-gen en_US.UTF-8 && update-locale LANG=en_US.UTF-8 \
     #
     # Install C++ tools
     # && apt-get -y install build-essential cmake cppcheck valgrind \
