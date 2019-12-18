@@ -10,9 +10,7 @@
         "ms-iot.vscode-ros",
         "ms-python.python",
         "ms-vscode.cpptools",
-        "twxs.cmake",
         "uavcan.dsdl",
-        "vector-of-bool.cmake-tools",
         "wholroyd.jinja",
         "zixuanwang.linkerscript"
     ]
